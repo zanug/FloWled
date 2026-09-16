@@ -565,7 +565,7 @@ class Segment {
     , startY(sStartY)
     , stopY(sStopY > sStartY ? sStopY : sStartY+1) // minimum height is 1
     , offset(0)
-    , options(SELECTED | SEGMENT_ON)
+    , options(SELECTED | SEGMENT_ON | MIRROR) // FloWled: default new segments to mirrored
     , grouping(1)
     , spacing(0)
     , opacity(255)
